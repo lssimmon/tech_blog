@@ -14,13 +14,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     services:
-      postgres:
-        image: 
-        ports:
         env:
-          POSTGRES_DB: 
-          POSTGRES_USER: 
-          POSTGRES_PASSWORD: 
+  
     env:
       RAILS_ENV: 
       DATABASE_URL:
