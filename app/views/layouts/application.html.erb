@@ -11,6 +11,14 @@
   </head>
 
   <body>
+    <nav>
+      <div class="nav_wrapper">
+        <%= link_to "Home", main_index_path %>
+        <%= link_to "Posts", posts_path  %>
+        <%= link_to "New Post", new_post_path  %>
+      </div>
+      
+    </nav>
     <%= yield %>
   </body>
 </html>
